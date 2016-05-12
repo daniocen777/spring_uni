@@ -1,0 +1,36 @@
+body{
+    background-image: url("../imagen/fondo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /*PARA QUE LA IMAGEN SE QUEDE Y NO BAJE JUNTO CON EL TEXTO*/
+    background-size: 100%; /*PARA PONERLO EN TODA LA PANTALLA*/
+    /*MIRA LOS DIV, TABIÉN SE PUEDEN PONER IMAGEN*/
+     margin-left: 0px;
+    margin-top: 0px;
+    font-family: Arial;
+}
+
+a{
+    text-decoration:  none;
+    display:  inline-block;
+    list-style:  none;
+}
+
+#principal{
+    width: 100%;
+    color: #ff3333;
+}
+
+#header{
+    width: 100%; /* ANCHO*/
+    height: 132px;  /* ALTO */
+    background-color: #083182;
+    color: #d7d2de;
+    float: left;
+}
+
+#footer{
+    width: 100%;
+    height: 20px;
+    float: left;
+    text-align: center;
+}

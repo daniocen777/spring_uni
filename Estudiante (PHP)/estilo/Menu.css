@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    font-family: fantasy;
+}
+
+header{
+    margin: auto;
+    margin-top: 18px;
+    width: 600px;
+    height: 40%;
+    
+    
+}
+
+body{
+    background-image: url("../imagen/171_l.jpg"); /*ASÍ SE PONE LA IMAGEN*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;  /*PARA QUE LA IMAGEN SE QUEDE Y NO BAJE JUNTO CON EL TEXTO*/
+    background-size: 100%; /*PARA PONERLO EN TODA LA PANTALLA*/
+    /*MIRA LOS DIV, TABIÉN SE PUEDEN PONER IMAGEN*/
+}
+
+.p{
+    font-family: serif;
+    color: #0000cc;
+}
+
+/*a{
+     text-decoration:  none;
+     font-family: fantasy;
+     font-size: x-large;
+     
+     
+     list-style:  none;
+}*/
+
+.en{
+    text-decoration:  none;
+    color: #ccccff;
+     text-decoration:  none;
+     font-family: fantasy;
+     font-size: x-large;
+}
+
+.en2{
+    text-decoration:  none;
+    color: #ccccff;
+}
+
+div.enca{
+    width: 150px;
+    height: 90px;
+    float: left;
+    -webkit-transition: height .4s;
+}
+
+div#uno{
+    background-color: rgb(233, 147, 26);
+}
+
+div#dos{
+    background-color: rgb(22, 145, 190);
+}
+
+div#tres{
+    background-color: rgb(22, 107, 162);
+}
+
+img.icon{
+        display: block;
+        
+        margin: 10px auto;
+        width: 40px;
+        padding: 0px;
+        -webkit-border-radius: 50%;
+        -webkit-box-shadow: 0px 0px 0px 30px rgba(255,255,255,0);
+         -webkit-transition:box-shadow .4s;
+}
+
+p.texto{
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+    padding-top: 16px;
+    opacity: 0.6;
+     -webkit-transition: pading-top .4s;
+}
+
+div.enca:hover{
+    height: 100px;
+}
+
+div.enca:hover p.texto{                   
+    padding-top: 20px;
+    opacity: 1;
+}
+
+div.enca:hover img.icon{
+     -webkit-box-shadow:  0px 0px 0px 0px rgba(255,255,255,.6);
+}
+
+div#cuatro{
+        background-color: rgb(27, 54, 71);
+
+}
+
+a{
+    text-decoration:  none;
+}
