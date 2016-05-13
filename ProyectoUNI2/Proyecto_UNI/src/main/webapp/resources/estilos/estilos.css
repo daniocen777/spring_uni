@@ -1,0 +1,56 @@
+@CHARSET "ISO-8859-1";
+root {
+	display: block;
+}
+
+p {
+	font-size: 12pt;
+	font-family: arial, helvetica;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 36pt;
+	font-family: verdana, arial;
+	text-decoration: underline;
+	text-align: center;
+	background-color: beige;
+	text-transform: uppercase;
+	color: #0B173B;
+}
+
+td {
+	font-size: 10pt;
+	font-family: verdana, consola;
+}
+
+b {
+	color: #663300;
+	font-family: verdana, serif;
+	font-size: 14pt;
+}
+
+img {
+	border: 2;
+}
+
+table {
+	background-color: white;
+}
+
+th {
+	background-color: #E0F8EC;
+}
+
+td {
+	background-color: white;
+}
+
+body {
+	background-color: beige;
+}
+
+
+
+
+
